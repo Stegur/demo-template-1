@@ -1,3 +1,93 @@
-* {
-    color: blueviolet;
+@font-face {
+    font-family: "Exo";
+    src: url('/fonts/Exo-Regular.ttf') format('ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Exo";
+    src: url('/fonts/Exo-Thin.ttf') format('ttf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Exo";
+    src: url('/fonts/Exo-RegularItalic.ttf') format('ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('/fonts/Lato-Regular.ttf') format('ttf');
+    font-weight: 400;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-width: 960px;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    font-family: "Exo";
+}
+
+.header {
+    padding-top: 215px;
+    padding-bottom: 225px;
+
+    background: #eceaea url(/images/header.jpg) no-repeat;
+    background-size: cover;
+
+    text-align: center;
+}
+
+.header-title {
+    width: 75rem;
+    margin: auto;
+
+    color: #282828;
+    font-size: 6rem;
+    font-weight: 100;
+}
+
+.play-button {
+    display: inline-block;
+
+    margin: 30px auto;
+
+    opacity: 0.6;
+}
+
+.try-button {
+    display: block;
+    box-sizing: border-box;
+    
+    margin: auto;
+    padding-top: 1.5rem;
+
+    width: 19.5rem;
+    height: 5rem;
+
+    border-radius: 5px;
+    background-color: #ff6d6d;
+
+    color: #ffffff;
+    font-size: 1.6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.mark {
+    display: block;
+    margin-top: 1rem;
+
+    color: #282828;
+    font-size: 1.4rem;
+
+    opacity: 0.6;
 }
