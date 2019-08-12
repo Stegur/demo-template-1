@@ -42,6 +42,7 @@ body {
 
     background: #eceaea url(../images/header.jpg) no-repeat;
     background-size: cover;
+    background-position: center 50%;
 
     text-align: center;
 }
